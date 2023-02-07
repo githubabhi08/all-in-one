@@ -1,0 +1,316 @@
+.pz{
+    font-size: 77px;
+    color: yellow;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    right: 1050px;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.user{
+    font-size: 57px;
+    color: yellow;
+    font-weight: 900;
+    position: relative;
+    top: -20px;
+    right: -90px;
+}
+.ybutton{
+    position: relative;
+    top: 20px;
+    transition: 0.7s;
+    height: 40px;
+    width: 140px;
+    border-radius: 70px;
+    font-size: 22px;
+   left: 80px;
+    border: solid yellow 2px;
+    background-color:white;
+    padding: 1px 1px 10px 1px;
+    font-weight: 900;
+    
+}
+.ybutton:hover{
+    background-color: yellow;
+}
+.nav-item{
+    position: relative;
+    top: 20px;
+    right: 100px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: yellow;
+    transition: 0.7s;
+}
+.navbar-light .navbar-nav .nav-link{
+    letter-spacing: 2px;
+    color: black;
+}
+.bn{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: 77vh;
+    width: 100%;
+}
+.ban h1{
+    position: relative;
+    top: -320px;
+    left: -520px;
+    color:black;
+    font-family: cursive;
+    font-weight: 700;
+}
+.upon{
+    position: relative;
+    top: 70px;
+    right: 250px;
+   
+}
+.style button{
+    position: relative;
+    top: -100px;
+    left: -350px;
+    opacity: 0;
+}
+.cart{
+    position: absolute;
+    right: 150px;
+    top: 0px;
+    border-radius: 70px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight:700;
+    z-index: 2;
+}
+.order{
+    position: absolute;
+    border-radius: 70px;
+    font-weight: 700;
+    right: 400px;
+    font-size: 17px;
+    height: 50px;
+    top: 0px;
+    width: 100px;
+    z-index: 2;
+}
+.styles:hover button{
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.7s;
+    background-color: yellow;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.about{
+    position: relative;
+    top: 40px;
+    right: -400px;
+    height: 300px;
+    background-color: black;
+    width: 270px;
+    margin-bottom: 100px;
+}
+.about .imag img{
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+    width: 100%;
+    z-index: 7;
+}
+.about::before,.about::after{
+    content: '';
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    background: linear-gradient(317deg,#00ff00,cyan);
+}
+
+
+.abouto{
+    position: relative;
+    top: -350px;
+    right: 20px;
+    height: 300px;
+    background-color: black;
+    width: 270px;
+    margin-bottom: 100px;
+}
+.abouto .imago img{
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+    width: 100%;
+    z-index: 7;
+}
+.abouto::before,.abouto::after{
+    content: '';
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    background: linear-gradient(317deg,rgb(254, 40, 75),rgb(252, 46, 252));
+}
+
+
+
+.abouti{
+    position: relative;
+    top: -750px;
+    right: 420px;
+    height: 300px;
+    background-color: black;
+    width: 270px;
+    margin-bottom: 100px;
+}
+.abouti .imagi img{
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+    width: 100%;
+    z-index: 7;
+}
+.abouti::before,.abouti::after{
+    content: '';
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    background: linear-gradient(317deg,yellow,red);
+}
+.cont h2,.conti h2, .conte h2{
+    position: absolute;
+    top: 250px;
+    opacity: 1;
+    right: 50px;
+    z-index: 10;
+    color:rgb(255, 7, 48);
+    font-size: 22px;
+    transition: all .7s;
+    font-weight: 700;
+    font-family: cursive;
+
+}
+.about .imag:hover img{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.abouti .imagi:hover img{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.abouto .imago:hover img{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
+.type{
+    display: flex;
+    justify-content: center;
+    color: rgb(251, 6, 47);
+    letter-spacing: 2px;
+    font-family: cursive;
+    margin-top: 30px;
+    
+}
+.type h1{
+    font-weight: 2000;
+    font-size: 50px;
+}
+.serve{
+    position: relative;
+    top: -770px;
+    right: 70px;
+}
+
+.serve .one{
+    
+    position: absolute;
+    top: 0;
+    right: 40px;
+    height: 220px;
+    width: 220px;
+}
+.serve .two{
+    
+    position: absolute;
+    top: 0;
+    height: 220px;
+    width: 220px;
+    right: 340px;
+}
+.serve .three{
+    
+    position: absolute;
+    top: 0;
+    height: 220px;
+    width: 220px;
+    right: 640px;
+}
+.serve .four{
+
+    position: absolute;
+    top: 0;
+    height: 220px;
+    width: 220px;
+    right: 940px;
+}
+.serve .card .card-body:hover{
+    background-color:rgb(251, 3, 44);
+    z-index:10 ;
+transition: all .7s;
+}
+.serve .card-title h2{
+    position: absolute;
+    top: 170px;
+    right: 7px;
+    transition: all .7s;
+    opacity: 0;
+    font-weight: 570;
+}
+.serve .card:hover h2{
+    position: absolute;
+    top: 170px;
+    right: 7px;
+    color: yellow;
+    opacity: 1;
+}
+
+.disc{
+    color: yellow;
+    font-size: 77px;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    font-weight: 900;
+}

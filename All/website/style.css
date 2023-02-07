@@ -1,0 +1,64 @@
+#chotu{
+    display: flex;
+    justify-content: space-around;
+    height: 57px;
+    background:linear-gradient(57deg,#EC407A,#EF9A9A);
+    border: solid #0D47A1 4px;
+    border-radius: 17px;
+}
+.motu{
+    margin-top: 12px;
+    font-size: large;
+    border: solid #BA68C8 4px;
+    height: 20px;
+    background:linear-gradient(67deg,#9C27B0,#64B5F6);
+    border-radius: 17px;
+    padding: 4px 4px ;
+}
+button{
+    border-radius: 17px;
+    background-color:white;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 4px 3px 3px 3px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+#jesus{
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/31/20/06/cyber-5244032__340.png');
+    height:650px;
+    width:1500px;
+    margin-top: 0.5px;
+    position: relative;
+    border-radius: 27px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+
+}
+.love{
+    text-align: center;
+    justify-content: center;
+    color:#4DD0E1;
+    margin-top: 3px;
+    padding-top: 5px;
+}
+.oke{justify-content: center;
+    color: #D81B60;
+    text-align: center;
+}
+button:hover{
+    background-color:#00ff00;
+}
+button:active{
+    background-color:#E91E63;
+}
+#newpic{
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/23/07/45/pennant-1689013__340.png');
+background-repeat: no-repeat;
+height: 400px;
+width: 500px;
+position: absolute;
+top: 217px;
+left: 1000px;
+}

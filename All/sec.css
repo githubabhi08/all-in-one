@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(57, 56, 56);
+}
+.fox{
+    position: relative;
+    border: solid white 7px;
+    height: 270px;
+    width: 220px;
+    top: 200px;
+    left: 700px;
+    overflow: hidden;
+}
+.fox:before{
+    background: linear-gradient(to right,blue,cyan,yellow,red,rgb(2, 253, 2),purple);
+    height: 470px;
+    width: 750px;
+    position: absolute;
+    content: '';
+    top: -70px;
+    left: -240px;
+    animation: play 2.7s linear infinite;
+}
+@keyframes play{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.fox:after{
+    content: '';
+    background-color: aqua;
+    height: 92%;
+    width: 92%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.apl{
+    position: relative;
+    top: -200px;
+    left: 200px;
+    height: 270px;
+    border: none;
+    outline: none;
+  
+    width: 250px;
+    transition: 0.4s;
+}
+.apl:hover{
+    
+    transform: scale(1.1);
+    box-shadow: 0px 0px 17px white,
+    0px 0px 77px white,
+    0px 0px 107px white,
+    0px 0px 177px white;
+    -webkit-box-reflect: below 1px linear-gradient(white,transparent);
+}

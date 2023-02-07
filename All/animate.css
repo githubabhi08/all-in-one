@@ -1,0 +1,37 @@
+.box{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    
+    top: 170px;
+    right: 700px;
+    overflow: hidden;
+}
+.box:before{
+    position: absolute;
+    content: '';
+    top: -50px;
+    right: 0px;
+    
+    height: 150%;
+    width: 150%;
+    background: linear-gradient(yellow,red,purple);
+}
+.box:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    left: 0px;
+    inset: 3px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/02/06/37/beautiful-2910260__340.jpg");
+}
+
+
+
+
+
+

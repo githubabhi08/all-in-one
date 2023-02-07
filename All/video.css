@@ -1,0 +1,117 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgb(2, 2, 72);
+}
+
+.chotu{
+    position:relative;
+    border: solid rgb(42, 0, 0) 7px;
+    width: 370px;
+    height: 270px;
+    top: 100px;
+    left: 500px;
+   overflow: hidden;
+}
+.chotu:before{
+position: absolute;
+content: '';
+background: linear-gradient(45deg,blue,rgb(254, 3, 254),yellow,red,rgb(2, 249, 2),aqua,orange);
+width: 900px;
+height: 900px;
+background-size: 100%;
+top: -190px;
+left: -140px;
+filter: blur(40px);
+box-shadow: 40px 50px 70px red;
+animation: play 2.7s linear infinite;
+
+}
+@keyframes play{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+.chotu:after{
+    position: absolute;
+    content: '';
+    background-color: rgb(31, 31, 163);
+    width: 92%;
+    height: 92%;
+    top: 12px;
+    left: 12px;
+    z-index: 8;
+}
+.btn{
+    background-color: aqua;
+    padding: 4px 5px;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    left: 200px;
+    border: none;
+    outline: none;
+    transition: all 2s;
+}
+.btn:hover{
+    box-shadow:0 0 27px aqua;
+    0 0 77px aqua
+    0 0 127px aqua
+    0 0 197 px aqua;
+    transform: scale(1.7);
+}
+.img{
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/21/23/34/cherry-575547__340.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    position: relative;
+    height: 190px;
+    width: 190px;
+    top: -250px;
+    left: 1100px;
+    transition: all 0.4s;
+}
+.img:hover{
+-webkit-box-reflect: below 0px linear-gradient(transparent,white);
+transform: scale(1.7);
+
+
+}
+
+.line button{
+    height: 47px;
+    width: 80px;
+    border: none;
+    outline: none;
+    background-color: #00ff00;
+    position: relative;
+    top: -150px;
+    left: 900px;
+}
+.line button:after{
+    background-color:rgb(252, 4, 45) ;
+    height: 4px;
+    width: 0%;
+    position: absolute;
+    top: 50px;
+    transition: all 0.4s;
+    content: '';
+    right: 0px;
+    transform: scale(0,1);
+
+}
+.lin{
+    
+    font-weight: 900;
+    font-size: 24px;
+    padding: 2px 2px 2px 2px;
+}
+
+.line   button:hover:after{
+    width: 100%;
+    transform: scale(1,1);
+}

@@ -1,0 +1,545 @@
+
+.nav-item{
+    right: 80px; 
+    position: relative;
+    margin-top: 3rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 4, 46);
+    font-size: 21px;
+    font-weight: 700;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: cyan;
+    transition: all 0.4s;
+}
+.brand{
+    position: relative;
+    color: rgb(255, 4, 46);
+    font-size: 74px;
+    right: 1230px;
+   
+    
+}
+.btnchange{
+    background-color: white;
+    position: relative;
+    left: 290px;
+    top: 15px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 4, 46);
+    font-size: 19px;
+    font-weight: 800;
+}
+.btnchange:hover{
+    background-color: rgb(255, 4, 46);
+    transition: all 0.9s;
+}
+.banner{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    position: relative;
+    height: 80vh;
+    left: 20px;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/photos/stylish-blue-headphones-on-multi-colored-duo-tone-background-lighting-picture-id1175355990?b=1&k=20&m=1175355990&s=170667a&w=0&h=HT3NyJf6XkA29yQMeiqgvLRLHvW8AS05awp08IoBrU8=");
+}
+.buy ,.read{
+    border-radius: 50px;
+    font-size: 19px;
+    background-color:cyan;
+    font-weight: 700;
+      letter-spacing: 1px;
+      position: relative;
+      top: 450px;
+      border: none;
+      outline: none;
+}
+.buy{
+    right: 750px;
+    padding: 7px 7px 7px 7px;
+}
+.read{
+    right: 470px;
+    padding: 7px 7px 7px 7px;
+    background-color: rgb(250, 7, 47);
+
+}
+.buy:hover{
+    background-color: white;
+    transition: 0.7s;
+}
+.read:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: rgb(251, 5, 46);
+    transition: 0.9s;
+}
+.earphone:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+.watch:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+.camera:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    border-radius: 50px;
+}
+.cam:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    
+    border-radius: 50px;
+}
+.apple:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+.bank:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+    transition: all 0.7s;
+}
+.buyy{
+    position: relative;
+    bottom: 30px;
+    z-index: -2;
+}
+.top{
+    background-color: cyan;
+    height: 170px;
+    width: 100%;
+}
+.deals{
+    position: relative;
+    font-size: 57px;
+    font-weight: 700;
+    font-style: cursive;
+    color: rgb(253, 5, 46);
+    right: 520px;
+    top: 44px;
+    text-shadow: 4px 4px 7px rgb(249, 4, 45);
+   
+    display: inline-block;
+    background-color:cyan;
+    outline: none;
+    border-radius: none;
+}
+.brand:hover{
+    color: cyan;
+    transition: 0.7s;
+}
+.truck{
+    position: relative;
+    font-size: 117px;
+    color: rgb(251, 4, 45);
+    top: 50px;
+    right: 70px;
+}
+.card{
+    height: 240px;
+}
+.card-title{
+   position: relative;
+   right: 70px;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: cursive;
+   color: rgb(251, 5, 46);
+   top: 60px;
+}
+.customer,.discount,.return{
+    position: relative;
+    font-size: 117px;
+    color: rgb(251, 4, 45);
+    top: 50px;
+    right: 70px;
+}
+.ser{
+    background-color: cyan;
+    height: 170px;
+    width: 100%;
+}
+.sir{
+    position: relative;
+    font-size: 57px;
+    font-weight: 700;
+    font-style: cursive;
+    color: rgb(253, 5, 46);
+    right: 520px;
+    top: 44px;
+    text-shadow: 4px 4px 7px rgb(249, 4, 45);
+   
+    display: inline-block;
+    background-color:cyan;
+    outline: none;
+    border-radius: none;
+}
+.size{
+    height: 370px;
+}
+.ghadi1{
+    position: relative;
+    right: 50px;
+    width: 290px;
+}
+.size{
+    height: 370px;
+}
+.ghadi2{
+    position: relative;
+    right: 50px;
+    width: 290px;
+}
+.size{
+    height: 370px;
+}
+.ghadi3{
+    position: relative;
+    right: 50px;
+    width: 290px;
+    top: 27px;
+}
+.p1{
+    position: relative;
+    background-color: cyan;
+    height: 47px;
+    width: 97px;
+    border-radius: 57px;
+    outline: none;
+    border: none;
+    transition: 0.9s;
+    padding: 4px 4px 4px 4px;
+   right: 80px;
+}
+.p1:hover{
+    box-shadow: 0px 0px 77px cyan,
+    0px 0px 107px cyan,
+    0px 0px 177px cyan,
+    0px 0px 277px cyan;
+    transform: scale(1.1);
+}
+.expo{
+    background-color: cyan;
+    height: 170px;
+    width: 100%;
+}
+.ex{
+    position: relative;
+    font-size: 57px;
+    font-weight: 700;
+    font-style: cursive;
+    color: rgb(253, 5, 46);
+    right: 520px;
+    top: 44px;
+    text-shadow: 4px 4px 7px rgb(249, 4, 45);
+   
+    display: inline-block;
+    background-color:cyan;
+    outline: none;
+    border-radius: none;
+}
+.pm{
+    
+        position: relative;
+        background-color: cyan;
+        height: 47px;
+        top: -70px;
+        width: 97px;
+        border-radius: 57px;
+        outline: none;
+        border: none;
+        transition: 0.9s;
+        padding: 4px 4px 4px 4px;
+       right: 80px;
+    
+}
+.pm:hover{
+    box-shadow: 0px 0px 77px cyan,
+    0px 0px 107px cyan,
+    0px 0px 177px cyan,
+    0px 0px 277px cyan;
+    transform: scale(1.1);
+}
+.ps{
+    
+    position: relative;
+    background-color: cyan;
+    height: 47px;
+    top: -30px;
+    width: 97px;
+    border-radius: 57px;
+    outline: none;
+    border: none;
+    transition: 0.9s;
+    padding: 4px 4px 4px 4px;
+   right: 80px;
+
+}
+.ps:hover{
+box-shadow: 0px 0px 77px cyan,
+0px 0px 107px cyan,
+0px 0px 177px cyan,
+0px 0px 277px cyan;
+transform: scale(1.1);
+}
+.pi{
+    
+    position: relative;
+    background-color: cyan;
+    height: 47px;
+    top: -20px;
+    width: 97px;
+    border-radius: 57px;
+    outline: none;
+    border: none;
+    transition: 0.9s;
+    padding: 4px 4px 4px 4px;
+   right: 80px;
+
+}
+.pi:hover{
+box-shadow: 0px 0px 77px cyan,
+0px 0px 107px cyan,
+0px 0px 177px cyan,
+0px 0px 277px cyan;
+transform: scale(1.1);
+}
+.gread{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.grey{
+    position: relative;
+    height: 370px;
+    right: 70px;
+    margin-top: 4rem;
+    width: 300px;
+    background-color: rgb(1, 1, 50);
+    overflow: hidden;
+}
+.grey:before{
+    position: absolute;
+    content:'' ;
+    height: 1000px;
+    width: 100px;
+    top: -190px;
+    right: 80px;
+    animation: play 4.2s linear infinite;
+    background: linear-gradient(rgb(252, 2, 44),rgb(250, 2, 43),rgb(250, 2, 43), cyan ,cyan ,transparent);
+}
+@keyframes play{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.grey:after{
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    content:'' ;
+    inset: 3px;
+    background-image: url("https://cdn.pixabay.com/photo/2012/02/29/12/18/assistant-18993__340.jpg");
+}
+.grey:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    background-attachment: scroll;
+}
+.greadi{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.greyi{
+    position: relative;
+    height: 370px;
+    bottom: 400px;
+    right: 490px;
+    margin-top: 2rem;
+    width: 300px;
+    background-color: rgb(1, 1, 50);
+    overflow: hidden;
+}
+.greyi:before{
+    position: absolute;
+    content:'' ;
+    height: 1000px;
+    width: 100px;
+    top: -190px;
+    right: 80px;
+    animation: play 4.2s linear infinite;
+    background: linear-gradient(rgb(252, 2, 44),rgb(250, 2, 43),rgb(250, 2, 43), cyan ,cyan ,transparent);
+}
+@keyframes play{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.greyi:after{
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    content:'' ;
+    inset: 3px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/04/26/09/30/man-6208470__340.jpg");
+}
+.greyi:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    background-attachment: scroll;
+}
+.gready{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.greyy{
+    position: relative;
+    height: 370px;
+    margin-top: 1rem;
+    bottom: 800px;
+    right: 930px;
+    width: 300px;
+    background-color: rgb(1, 1, 50);
+    overflow: hidden;
+}
+.greyy:before{
+    position: absolute;
+    content:'' ;
+    height: 1000px;
+    width: 100px;
+    top: -190px;
+    right: 80px;
+    animation: play 4.2s linear infinite;
+    background: linear-gradient(rgb(252, 2, 44),rgb(250, 2, 43),rgb(250, 2, 43), cyan ,cyan ,transparent);
+}
+@keyframes play{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.greyy:after{
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    content:'' ;
+    inset: 3px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/02/16/33/woman-1564001__340.jpg");
+}
+.greyy:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+    background-attachment: scroll;
+}
+.dien{
+    background-color: cyan;
+    height: 170px;
+    width: 100%;
+}
+.gr{
+    position: relative;
+    font-size: 57px;
+    font-weight: 700;
+    font-style: cursive;
+    color: rgb(253, 5, 46);
+    right: 520px;
+    top: 44px;
+    text-shadow: 4px 4px 7px rgb(249, 4, 45);
+   
+    display: inline-block;
+    background-color:cyan;
+    outline: none;
+    border-radius: none;
+}
+.call{
+    position: relative;
+    height: 55vh;
+    width: 65%;
+    left: 50px;
+    top: 20px;
+}
+.row input{
+    width: 87%;
+    position: relative;
+    bottom: 1000px;
+    right: 670px;
+}
+.frm{
+    position: relative;
+    bottom: 780px;
+    right: 170px;
+}
+.con{
+    background-color: cyan;
+    height: 170px;
+    width: 100%;
+    bottom: 800px;
+    position: relative;
+}
+.cact{
+    position: relative;
+    font-size: 57px;
+    font-weight: 700;
+    font-style: cursive;
+    color: rgb(253, 5, 46);
+    right: 520px;
+    top: 44px;
+    text-shadow: 4px 4px 7px rgb(249, 4, 45);
+   
+    display: inline-block;
+    background-color:cyan;
+    outline: none;
+    border-radius: none;
+}
+.ad,.em,.na,.co{
+    font-size: 47px;
+    position: relative;
+    color:rgb(253, 5, 46) ;
+    bottom: 990px;
+    right: 677px;
+}
+.last button{
+    position: relative;
+    bottom: 920px;
+    right: 507px;
+    background-color:cyan ;
+    height: 47px;
+    color: white;
+    width: 70px;
+    padding: 4px 4px 4px 4px;
+    transition: 0.7s;
+    border-radius: 57px;
+    border: none;
+    outline: none;
+}
+.last button:hover{
+    box-shadow: 0px 0px 17px rgb(251, 3, 45),
+    0px 0px 77px rgb(251, 3, 45),
+    0px 0px 107px rgb(251, 3, 45),
+    0px 0px 177px rgb(251, 3, 45);
+    transform: scale(0.7);
+}
+.login{
+position: relative;
+left: 57px !important ;
+}
+html{
+    scroll-behavior: smooth;
+    transition:all 4.9s;
+}

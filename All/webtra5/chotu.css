@@ -1,0 +1,14 @@
+
+.carousel-item img{
+    height: 80vh;
+    width: 100%;
+}
+.abt h2{
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    margin-top: 35px;
+   
+}

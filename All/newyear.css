@@ -1,0 +1,45 @@
+.card{
+    position: relative;
+    top: 150px;
+    right: -450px;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+    height: 370px;
+    width: 320px;
+    z-index: 2;
+    background-color: pink;
+}
+.card .imgi{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background-color: black;
+    transition:all .7s;
+}
+
+.card:hover .imgi{
+    transform: rotateY(-180deg);
+}
+.card .imgi img{
+    position: absolute;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+}
+
+.imgi img:nth-child(2){
+    transform: rotateY(180deg);
+}
+.content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}

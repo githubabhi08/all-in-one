@@ -1,0 +1,78 @@
+#a{
+    display: flex;
+    height: 57px;
+    justify-content: space-around;
+    background-color: #2afcfc;
+    border: solid #0e89fc 7px;
+    border-radius: 20px;
+}
+button{
+    margin-top: 12px;
+    background-color: #59a4fb;
+    border: solid #4d5cff 3px;
+    border-radius: 15px;
+    
+}
+button:hover{
+   background-color: #6204fb;
+}
+button:active{
+   background-color: #00ff00;
+}
+.god button:hover{
+   background-color: #ffff00;
+}
+.god button:active{
+   background-color: #ff2f00;
+}
+ #abhi{
+    height: 350px;
+    width: 1500px;
+    margin-top: 7px;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://media.istockphoto.com/photos/computer-laptop-data-analyticsmarketing-business-strategyanalysis-picture-id1401543955?b=1&k=20&m=1401543955&s=170667a&w=0&h=dAcTtDBKtu38kIGsamjb7OYU_S-Ik8S-VEZiXyn7uzE=");
+
+ }
+ .d{
+    text-align: center;
+    
+ }
+ .e{
+    text-align: center; 
+ }
+ div #a :first-child{
+   background-color: #0217fc;
+ }
+ div .d::first-letter{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+ }
+ div .d::first-line{
+    font-size:27px ;
+    color:#4e03fd;
+ }
+ .e{
+    color: #5c01fa;
+    font-size: 22px;
+ }
+  div #a .b button:first-child{
+   background-color: antiquewhite;
+ }
+ 
+ .h{
+   position: absolute;
+   top: 220px;
+   text-align: center;
+   left: 670px;
+ }
+ button{
+   height: 35px;
+    padding: 5px 5px 5px 5px;
+ }
+ .card{
+   position:absolute;
+   top: 455px;
+   left: 100px;
+ }
